@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p,a,ul,li{
+    margin: 0;
+    padding: 0;
+}
+#logo-menu{
+    background:black;
+    padding: 30px;
+    overflow: hidden;
+}
+.content{
+    width: 1170px;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+    width: 20%;
+}
+.logo img{
+    width: 50%;
+    height: 50%;
+}
+.menu{
+    float: left;
+    width: 80%;
+    margin-top: 15px;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    width: 25%;
+    /* background: blue; */
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    float: left;
+    padding-right: 15px;
+    font-size: 18px;
+}
+.menu ul li a:first-child{
+    font-weight: bolder;
+}
