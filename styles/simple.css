@@ -44,3 +44,42 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li{
 .menu ul li a:first-child{
     font-weight: bolder;
 }
+
+#banner{
+    overflow: hidden;
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.banner-content{
+    text-align: center;
+    padding: 170px 0px;
+    color: white;
+}
+.banner-content h1{
+    font-size: 44px;
+}
+.banner-content h3{
+    font-size: 32px;
+    color: gray;
+    margin-bottom: 20px;
+}
+.green-button{
+    padding: 25px 20px;
+    width: 10%;
+    background: greenyellow;
+    margin-left: 520px;
+    border-radius: 8px;
+}
+.green-button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
